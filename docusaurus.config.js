@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'EASY.DOCS',
+  title: 'EASY REPORT DOCS',
   tagline: 'Korzh.com Documentations Portal',
   favicon: 'img/favicon.ico',
 
@@ -14,7 +14,7 @@ const config = {
   url: 'https://test.korzh.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/easyquery/docs/',
+  baseUrl: '/easy-report-starter-kit/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -65,7 +65,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'EasyQuery',
+            label: 'Easy Report Docs',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -74,7 +74,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/olton/easy-report-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -82,48 +82,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} Korzh.com.`,
       },
       prism: {
         theme: lightCodeTheme,
